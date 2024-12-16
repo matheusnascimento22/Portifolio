@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sigin-product{
+    width: 250px;
+    height: 35px;
+    padding: 5px 0px 5px 35px;
+    border-radius: 6px;
+}
+
+#price-product{
+    width: 250px;
+    height: 35px;
+    padding: 5px 0px 5px 35px;
+    border-radius: 6px;
+}
+
+#cadastrar{
+    width: 250px;
+    height: 35px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: solid brown 3px;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#container{
+    margin: 5% auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 50px;
+}
+
+.product{
+    margin: 5px 0;
+    width: 95%;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 24px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#total-price{
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+div{
+    display: inline-block;
+    text-align: center;
+    background-color: lightblue;
+    width: 250px;
+    height: 250px;
+    border: 2.5px solid lightseagreen;
+    margin: 5px 0;
+}
+
+
+div#d1:hover{
+    background-color: white;
+    color: red;
+}
+
+div#d1:active{
+    border: 2.5px solid yellow;
+}  
+
+div#d1 > a:visited{
+    background-color: brown;
+}
+
+h1{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+p > a {
+    border: 5px solid black;
+    padding: 5px;
+    margin: 10px;
+    outline: 5px dashed blue;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3.5px solid blueviolet;
+    border-radius: 24px;
+    box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.300);
+}
+
+button#botao:hover{
+    transition: .25s;
+    background-color: blueviolet;
+}
