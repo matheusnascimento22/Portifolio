@@ -29,6 +29,7 @@
 body{
     background-color: #c5ebd6;
     font-family: var(--fonte-padrão);
+    overflow-x: hidden;
 }
 
 header{
